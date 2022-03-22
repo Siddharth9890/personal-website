@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Merriweather:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #354558;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.app__main-content {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.app__row {
+  height: 90vh;
+}
+
+.app__container {
+  padding-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .app__main-content {
+    margin: 30px 0px;
+  }
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+  .app__main-content {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .navbar__active {
+    font-size: 1.9rem;
+  }
+
+  .navbar__item {
+    font-size: 1rem;
+  }
+}

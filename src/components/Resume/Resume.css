@@ -1,0 +1,59 @@
+* RESUME */
+
+.resume {
+  padding-top: 20px;
+}
+
+.resume-card__heading {
+  margin-left: 1px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #354358;
+}
+.resume-card__title{
+  font-size: 1.5rem;
+}
+
+.resume-language__heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.resume-card__name {
+  font-size: 16px;
+}
+
+.resume-card__body {
+  margin-top: 10px;
+}
+
+.resume-card__title {
+  font-weight: 500;
+}
+
+.resume-card__details {
+  font-size: 0.9rem;
+  margin-top: -15px;
+}
+
+/* RESUME->ABOUT */
+
+.bar {
+  width: 90%;
+  background-color: #f1f1f3;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.bar__icon {
+  width: 15px;
+  height: 15px;
+}
+
+.bar__wrapper {
+  background-image: linear-gradient(90deg, #00f260, #0575e6);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: #fff;
+  font-size: 0.9rem;
+}
